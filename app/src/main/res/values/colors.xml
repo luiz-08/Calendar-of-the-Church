@@ -11,6 +11,6 @@
     <color name="black1">#000000</color>
     <color name="black_neutro">#212121</color>
     <color name="black_light">#484848</color>
-    <color name="calendar_font_color">#000000</color>
+    <color name="calendar_font_color">#FFFFFF</color>
     <color name="colorPrimary">#000000</color>
 </resources>

@@ -5,31 +5,46 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".ui.calendario.calendarioFragment"
-    android:background="@drawable/background">
+    android:background="@color/black">
+
+
+    <TextView
+        android:id="@+id/TextViewSuporte"
+        android:layout_width="408dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="15dp"
+        android:text="Selecione a data desejada"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        android:textStyle="italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.333"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <CalendarView
         android:id="@+id/calendarioIgreja"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="96dp"
-        android:background="@color/white"
+        android:layout_marginTop="80dp"
+        android:background="@color/black"
         android:dateTextAppearance="@style/CalendarTextAppearance"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.737"
+        app:layout_constraintHorizontal_bias="0.491"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         tools:ignore="MissingConstraints" />
 
     <TextView
-        android:id="@+id/Eventodata"
+        android:id="@+id/EventodataCulto"
         android:layout_width="313dp"
         android:layout_height="87dp"
-        android:layout_marginTop="48dp"
-        android:textColor="@color/white"
+        android:layout_marginTop="36dp"
         android:text=""
+        android:textColor="@color/white"
         android:textSize="20dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.653"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/calendarioIgreja" />
 
