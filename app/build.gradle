@@ -4,6 +4,9 @@ plugins {
 }
 
 android {
+    viewBinding {
+        enabled = true
+    }
     namespace 'com.example.churchcalendar'
     compileSdk 32
 
@@ -29,9 +32,6 @@ android {
     }
     kotlinOptions {
         jvmTarget = '1.8'
-    }
-    buildFeatures {
-        viewBinding true
     }
 }
 
