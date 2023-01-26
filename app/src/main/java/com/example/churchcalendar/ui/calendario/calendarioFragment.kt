@@ -34,8 +34,7 @@ class calendarioFragment : androidx.fragment.app.Fragment() {
         binding = FragmentCalendarioBinding.inflate(layoutInflater)
         val currentDate = Calendar.getInstance()
         binding.calendarioIgreja.date = currentDate.timeInMillis
-
-+
+        
         binding.calendarioIgreja.setOnDateChangeListener {view, year, month, dayofMonth ->
 
             val selectedDate = Calendar.getInstance().apply {
